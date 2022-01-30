@@ -4,8 +4,9 @@ I have worked in Information Technology for 30 plus years now. Here is my reflec
 
 - [Professional History](#professional-history)
   - [Software Areas](#software-areas)
-  - [Hardware Areas](#hardware-areas)
+  - [Companies and Roles](#companies-and-roles)
   - [Business Areas](#business-areas)
+  - [Hardware Areas](#hardware-areas)
 
 ## Software Areas
 
@@ -27,19 +28,25 @@ I have worked in Information Technology for 30 plus years now. Here is my reflec
 - 2020 - OPA, LMA, Clair, prometheus
 - 2021 - Azure for Operators
 
-## Hardware Areas
+## Companies and Roles
 
-- 1986 - IBM MVS Mainframe
-- 1987 - IBM MVS Mainframe and Wang OS.
-- 1991 - Window client, Windows Server and UNIX servers.
-- 1994 - Window client, Windows Server, UNIX servers and MVS Legacy system access.
-- 1995 - Window client, Windows Server, and DEC servers.
-- 1997 - Window client, and IBM AIX Unix servers.
-- 1999 - Window client, Windows Server, IBM AIX Unix servers.
-- 2008 - Window client, and Windows Server development and private Linux based Cloud Infrastructure as a service.
-- 2015 - Window client, VirtualBox Ubuntu VM development and Ubuntu Dell and HP bare-metal deployment.
-- 2019 - Window client, VirtualBox Ubuntu VM development and Ubuntu bare-metal Dell deployment based Kubernetes control plane.
-- 2021 - Window client, Hyper-V Ubuntu and Mariner VM, Azure Services, Bill Of Material define hardware based on Mariner bare-metal nodes.
+- 1986 Brown Group, Programmer Analyst
+- 1989 Forrest Ford Consulting,
+  - 1989 Consultant
+  - 1990 Consultant, Consultant Services Coordinator
+  - 1991 Senior Consultant, Consultant Services Manager
+- 1991 Southwestern Bell Telephone
+  - Business Consultant
+  - Solution Architect
+  - Project Leader
+  - Client Server Architect and Developer
+- 1995 Protein Technologies International, Project Manager
+- 1997 Anderson Technologies Inc, Consultant
+- 2001 AT&T Services Inc.
+  - 2001 Senior Technical Architect
+  - 2012 Principal Technical Architect
+  - 2019 Lead System Engineer
+- 2021 Microsoft, Principal Software Engineer
 
 ## Business Areas
 
@@ -81,3 +88,17 @@ I have worked in Information Technology for 30 plus years now. Here is my reflec
 
 - 2021 - Azure Cloud Public Cloud Infrastructure for Telco Operators
   - Public Cloud Management in Azure of Telco Operator's Edge Cluster to perform Virtual Network Functions (VMF) and Container Network Functions (CNF)
+
+## Hardware Areas
+
+- 1986 - IBM MVS Mainframe
+- 1987 - IBM MVS Mainframe and Wang OS.
+- 1991 - Window client, Windows Server and UNIX servers.
+- 1994 - Window client, Windows Server, UNIX servers and MVS Legacy system access.
+- 1995 - Window client, Windows Server, and DEC servers.
+- 1997 - Window client, and IBM AIX Unix servers.
+- 1999 - Window client, Windows Server, IBM AIX Unix servers.
+- 2008 - Window client, and Windows Server development and private Linux based Cloud Infrastructure as a service.
+- 2015 - Window client, VirtualBox Ubuntu VM development and Ubuntu Dell and HP bare-metal deployment.
+- 2019 - Window client, VirtualBox Ubuntu VM development and Ubuntu bare-metal Dell deployment based Kubernetes control plane.
+- 2021 - Window client, Hyper-V Ubuntu and Mariner VM, Azure Services, Bill Of Material define hardware based on Mariner bare-metal nodes.
