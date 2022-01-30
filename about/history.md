@@ -4,7 +4,7 @@ I have worked in Information Technology for 30 plus years now. Here is my reflec
 
 - [Professional History](#professional-history)
   - [Software Areas](#software-areas)
-  - [Hardware](#hardware)
+  - [Hardware Areas](#hardware-areas)
   - [Business Areas](#business-areas)
 
 ## Software Areas
@@ -27,7 +27,7 @@ I have worked in Information Technology for 30 plus years now. Here is my reflec
 - 2020 - OPA, LMA, Clair, prometheus
 - 2021 - Azure for Operators
 
-## Hardware
+## Hardware Areas
 
 - 1986 - IBM MVS Mainframe
 - 1987 - IBM MVS Mainframe and Wang OS.
