@@ -24,8 +24,7 @@ I have worked in Information Technology for 30 plus years now. Here is my reflec
 - 2008 - Architect J2EE JBOSS application protocol simulation and testing tool, that can simulate 6,000 transaction a second.
 - 2015 - OpenStack Deployment System Engineer using Ubuntu as the bare-metal Operating System.
 - 2016 - OpenStack Deployment System Engineer, Defining and Designing a Standard Container Interface for Quality Assurance testing at the control Plane and Data Plane using Python, Go and Docker.
-- 2019 - OpenStack Deployment System Engineer based on a Kubernetes Control Plane AQuA testing OPA and LMA integration
-- 2020 - OPA, LMA, Clair, prometheus
+- 2019 - OpenStack Deployment System Engineer based on a Kubernetes Control Plane, creating Quality Automation testing using containerized test suites, Open Policy Agent, and Logging Monitoring Alerting integration.
 - 2021 - Azure for Operators
 
 ## Companies and Roles
