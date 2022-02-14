@@ -2,7 +2,7 @@
 
 ## Missouri State University, Springfield, Missouri
 
-### Bachelor of Science Degree, College of Business Administration
+Bachelor of Science Degree, College of Business Administration
 
 Major in Computer Information Systems
 
