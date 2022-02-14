@@ -7,3 +7,7 @@
 Major in Computer Information Systems
 
 Graduated - December 1986
+
+## Training
+
+Coming Soon...
