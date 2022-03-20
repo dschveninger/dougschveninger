@@ -27,6 +27,11 @@ build-pdf-resume: ## Converts md into HTML docs
 	pandoc -V geometry:margin=.5in -s -o ./.out/resume.pdf ./about/experience.md ./about/technical-skills.md ./about/education.md
 
 ##@ Test - Quality Assurance targets to format, lint and test this repository
-# TODO add qa target and md linting
 
-.PHONY: build-html help install install-mdl
+qa: qa-mdlint ## Run all qa targets for the repo
+
+qa-mdlint: ## Run MArkdownlint on all files in repo
+	@echo "Running markdownlint on repo"
+	@mdl .
+
+.PHONY: build-pdf-resume help install install-mdl install-pandoc qa qa-mdlint

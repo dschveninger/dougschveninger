@@ -1,6 +1,7 @@
 # Professional History
 
-I have worked in Information Technology for 30 plus years now. Here is my reflection on the past 30 years.
+I have worked in Information Technology for 30 plus years now.
+Here is my reflection on the past 30 years.
 
 - [Professional History](#professional-history)
   - [Software Areas](#software-areas)
@@ -11,11 +12,14 @@ I have worked in Information Technology for 30 plus years now. Here is my reflec
 ## Software Areas
 
 - 2021 - Azure for Operators
-- 2019 - OpenStack Deployment System Engineer based on a Kubernetes Control Plane, creating Quality Automation testing using containerized test suites, Open Policy Agent, and Logging Monitoring Alerting integration.
-- 2016 - OpenStack Deployment System Engineer, Defining and Designing a Standard Container Interface for Quality Assurance testing at the control Plane and Data Plane using Python, Go and Docker.
+- 2019 - OpenStack Deployment System Engineer based on a Kubernetes Control Plane, creating Quality Automation
+   testing using containerized test suites, Open Policy Agent, and Logging Monitoring Alerting integration.
+- 2016 - OpenStack Deployment System Engineer, Defining and Designing a Standard Container Interface for Quality Assurance
+   testing at the control Plane and Data Plane using Python, Go and Docker.
 - 2015 - OpenStack Deployment System Engineer using Ubuntu as the bare-metal Operating System.
 - 2008 - Architect J2EE JBOSS application protocol simulation and testing tool, that can simulate 6,000 transaction a second.
-- 2000 - Lead Architect DSL Ordering systems based on J2EE designed to handle 300K transaction a day with a software fault tolerant design.
+- 2000 - Lead Architect DSL Ordering systems based on J2EE designed to handle 300K transaction a day with a software
+  fault tolerant design.
 - 1997 - Three tier service based development using C++, Orbix and Java Websphere on AIX.
 - 1996 - Leader of Data warehousing, Oracle financials and client server development project using PowerBuilder and InfoMaker.
 - 1994 - Client server developer PowerBuilder, C++ and Visual Basic.
@@ -50,13 +54,16 @@ I have worked in Information Technology for 30 plus years now. Here is my reflec
 ## Business Areas
 
 - 2021 - Azure Cloud Public Cloud Infrastructure for Telco Operators
-  - Public Cloud Management in Azure of Telco Operator's Edge Cluster to perform Virtual Network Functions (VMF) and Container Network Functions (CNF)
+  - Public Cloud Management in Azure of Telco Operator's Edge Cluster to perform Virtual Network Functions (VMF)
+  and Container Network Functions (CNF)
 
 - 2015 - Telecommunication Cloud Private Infrastructure
-  - Deployment, Updating and Testing Automation of Private Cloud Infrastructure for Virtual Network Functions running on OpenStack where the Control Plane run in Kubernetes
+  - Deployment, Updating and Testing Automation of Private Cloud Infrastructure for Virtual Network Functions running
+  on OpenStack where the Control Plane run in Kubernetes
 
 - 2008 Telecommunication Simulation Systems
-  - Remote Transport and Message Protocol Simulation System for Integration Testing of over 100 different Applications. Handled of 5,000 Transactions Per Second
+  - Remote Transport and Message Protocol Simulation System for Integration Testing of over 100 different Applications.
+  Handled of 5,000 Transactions Per Second
 
 - 2001 - Telecommunication Business Systems
   - Enterprise Order Change Management interfacing Legacy Systems
@@ -86,11 +93,12 @@ I have worked in Information Technology for 30 plus years now. Here is my reflec
 - 1986 - Retail Systems
   - Purchasing
   - Inventory
-  - Sales & sales trends  
+  - Sales & sales trends
 
 ## Hardware Areas
 
-- 2021 - Window client, Hyper-V Ubuntu and Mariner VM, Azure Services, Bill Of Material define hardware based on Mariner bare-metal nodes.
+- 2021 - Window client, Hyper-V Ubuntu and Mariner VM, Azure Services, Bill Of Material define hardware based
+   on Mariner bare-metal nodes.
 - 2019 - Window client, VirtualBox Ubuntu VM development and Ubuntu bare-metal Dell deployment based Kubernetes control plane.
 - 2015 - Window client, VirtualBox Ubuntu VM development and Ubuntu Dell and HP bare-metal deployment.
 - 2008 - Window client, and Windows Server development and private Linux based Cloud Infrastructure as a service.

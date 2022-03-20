@@ -1,12 +1,15 @@
 # TECHNICAL SKILLS
 
-**Languages:** Python, Golang, Ansible, bash, Rego, YAML, Jinja2, Java/J2EE, Jersey, Spring MVC, Hibernate, XML, HTML, JavaScript, Ajax, Dojo, SQL, PL-SQL, C++, Visual Basic
+**Languages:** Python, Golang, Ansible, bash, Rego, YAML, Jinja2, Java/J2EE, Jersey,
+Spring MVC, Hibernate, XML, HTML, JavaScript, Ajax, Dojo, SQL, PL-SQL, C++, Visual Basic
 
-**Cloud Tools:** Kubernetes, Docker, Helm, Argo, Gatekeeper - Open Policy Agent, Prometheus, Kibana, Elasticsearch, Litmus, Konstraint, Kube-bench
+**Cloud Tools:** Kubernetes, Docker, Helm, Argo, Gatekeeper - Open Policy Agent,
+Prometheus, Kibana, Elasticsearch, Litmus, Konstraint, Kube-bench
 
 **CI Tools:** Jenkins, Zuul, Git, GitHub, Gerrit, SVN, Maven, Ant, Make, tox, yapf, Clair, ArtiFactory, SonarQube
 
-**Development Tools:** PyCharm, VScode, VirtualBox, Eclipse, Toad, XML Spy, Introscope, WireShark, Infinispan, Rational Rose, Visual C++, PowerBuilder, ERwin
+**Development Tools:** PyCharm, VScode, VirtualBox, Eclipse, Toad, XML Spy, Introscope,
+WireShark, Infinispan, Rational Rose, Visual C++, PowerBuilder, ERwin
 
 **Testing Tools:** Robot Framework, Selenium, OpenStack Tempest, OpenStack Rally, JMeter
 
