@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # general tools to see if software is installed

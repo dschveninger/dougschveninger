@@ -31,7 +31,7 @@ build-pdf-resume: ## Converts md into HTML docs
 qa: qa-lint ## Run all qa targets for the repo
 
 qa-lint:  ## lint all code type in the repo
-	@docker run --rm --env-file .super-linter-local.env -v /Users/doug/github/dougschveninger:/tmp/lint github/super-linter
+	@docker run --rm --env-file .github/linters/.super-linter-local.env -v /Users/doug/github/dougschveninger:/tmp/lint github/super-linter
 
 lint-all:  ## run all linter against all files
 	@docker run --rm -e RUN_LOCAL=true -v /Users/doug/github/dougschveninger:/tmp/lint github/super-linter
