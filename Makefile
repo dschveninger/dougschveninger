@@ -12,14 +12,14 @@ help: ## List the make targets supported
 
 ##@ Install - targets to install supporting software
 
-install: install-mdl install-pandoc ## install all dependances
+# TODO working on getting cross install going 
+install: install-docker install-mdl install-pandoc ## install all dependances
 
-install-mdl: ## install markdown lint tool
-	@echo "installing mdl using gem"
-	gem install mdl
+install-docker:
+	@./tools/is-installed.sh docker
 
 install-pandoc:  ## install instructuions for pandoc to create different formats of the .md file
-	@echo "install using https://pandoc.org/installing.html instruction for your runtime environment."
+	@./tools/is-installed.sh pandoc "install using https://pandoc.org/installing.html instruction for your runtime environment."
 
 ##@ Build - targets to build different parts the repo
 
@@ -28,10 +28,16 @@ build-pdf-resume: ## Converts md into HTML docs
 
 ##@ Test - Quality Assurance targets to format, lint and test this repository
 
-qa: qa-mdlint ## Run all qa targets for the repo
+qa: qa-lint ## Run all qa targets for the repo
 
-qa-mdlint: ## Run MArkdownlint on all files in repo
-	@echo "Running markdownlint on repo"
-	@mdl .
+qa-lint:  ## lint all code type in the repo
+	@docker run --rm --env-file .super-linter-local.env -v /Users/doug/github/dougschveninger:/tmp/lint github/super-linter
 
-.PHONY: build-pdf-resume help install install-mdl install-pandoc qa qa-mdlint
+lint-all:  ## run all linter against all files
+	@docker run --rm -e RUN_LOCAL=true -v /Users/doug/github/dougschveninger:/tmp/lint github/super-linter
+
+lint-run:  ## run all linter against all files
+	@docker run --rm -it -e RUN_LOCAL=true -v /Users/doug/github/dougschveninger:/tmp/lint --entrypoint=/bin/bash github/super-linter 
+
+
+.PHONY: build-pdf-resume help install install-docker install-pandoc lint-all lint-run qa qa-lint

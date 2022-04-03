@@ -40,11 +40,11 @@ application as tier one support and improve the relationship between development
 Acted as Product Owner Delegate of the development team in order to help the Product Owner
 manage the backlog and define priorities.
 
-### Senior Technical Architect and Server Side Team Lead, 05/08 – 04/12
+### Senior Technical Architect and Server-Side Team Lead, 05/08 – 04/12
 
 Helped to grow a team from 3 to 12 members, while increasing the system’s features and
 ability to support performance testing.  The system provided interface reference information,
-client side testing and server side simulations.  Worked with presentation Team Leader to
+client-side testing and server-side simulations.  Worked with presentation Team Leader to
 design and communicate the team’s direction according to vision, informal requests and formal
 requirements.  Transformed business requirements into formal application design documentation
 in order to level set the team's understanding of the release deliverables.  Defined direction
@@ -69,7 +69,7 @@ Led the architecture team, which designed a J2EE Enterprise Order Management bus
 service for a Fortune 100 Company.  This system acted as an integration layer between a mediated
 business model and the legacy systems.  Responsibilities included: Creating a fault resilient
 architecture to handle 300,000 orders a day.  Define the best practices necessary to develop a
-quality system.  Define a System Development Life Cycle and the process and procedures needed
+quality system.  Define a System Development lifecycle and the process and procedures needed
 within our direct work group. Review Open Source and industry best practices to evaluate what
 internal direction should be taken.
 
@@ -115,7 +115,7 @@ This job entailed:
 ### Client Server Architect and Developer, 10/94 - 12/95
 
 Created two and three tier Client Server applications in the Sales Force Automation area.
-The architecture was based on a PowerBuilder client front end communicating to RDBMS and
+The architecture was based on a PowerBuilder client frontend communicating to RDBMS and
 Application Servers that access IMS legacy systems.  Played key role in creating the
 system architecture which includes:
 

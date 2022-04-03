@@ -1,11 +1,11 @@
 # Overview
 
-Hello my name is Doug Schveninger. I am using this GitHub repo as an example
-of how to create a presence on the internet with free github resources and
+Hello my name is Doug Schveninger. I am using this GitHub repository as an example
+of how to create a presence on the internet with free GitHub resources and
 other internet and cloud resources.
 
-This repo contains information about Doug Schveninger and items that he is interest in,
-you can view it using GitHub Browser of the Repo or you can view most of it from
+This repository contains information about Doug Schveninger and items that he is interest in,
+you can view it using GitHub Browser of the repository or you can view most of it from
 [dschvenigergithub.io GitHub Pages](https://dschveninger.github.io/index.html)
 
 ## About Doug
