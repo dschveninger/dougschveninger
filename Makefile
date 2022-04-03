@@ -13,7 +13,7 @@ help: ## List the make targets supported
 ##@ Install - targets to install supporting software
 
 # TODO working on getting cross install going 
-install: install-docker install-mdl install-pandoc ## install all dependances
+install: install-docker install-pandoc ## install all dependances
 
 install-docker:
 	@./tools/is-installed.sh docker
@@ -36,8 +36,10 @@ qa-lint:  ## lint all code type in the repo
 lint-all:  ## run all linter against all files
 	@docker run --rm -e RUN_LOCAL=true -v /Users/doug/github/dougschveninger:/tmp/lint github/super-linter
 
+lint-regex:  ## run linter against all files. make lint-regex REGEX={file or directory regex}
+	docker run --rm -e RUN_LOCAL=true -e FILTER_REGEX_INCLUDE=$(REGEX) -v /Users/doug/github/dougschveninger:/tmp/lint github/super-linter
+
 lint-run:  ## run all linter against all files
 	@docker run --rm -it -e RUN_LOCAL=true -v /Users/doug/github/dougschveninger:/tmp/lint --entrypoint=/bin/bash github/super-linter 
 
-
-.PHONY: build-pdf-resume help install install-docker install-pandoc lint-all lint-run qa qa-lint
+.PHONY: build-pdf-resume help install install-docker install-pandoc lint-all lint-arg lint-run qa qa-lint
