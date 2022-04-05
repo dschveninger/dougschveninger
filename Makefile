@@ -1,6 +1,7 @@
 .DEFAULT_GOAL := help
 PROJ_DIR := $(shell pwd)
 SHELL = /bin/bash
+MEGA_LINTER_IMAGE ?= megalinter/megalinter-documentation:v5
 
 # adjust this if the api is incremented
 
@@ -13,12 +14,12 @@ help: ## List the make targets supported
 ##@ Install - targets to install supporting software
 
 # TODO working on getting cross install going 
-install: install-docker install-pandoc ## install all dependances
+install: install-docker install-pandoc ## install all dependencies
 
 install-docker:
 	@./tools/is-installed.sh docker
 
-install-pandoc:  ## install instructuions for pandoc to create different formats of the .md file
+install-pandoc:  ## install instructions for pandoc to create different formats of the .md file
 	@./tools/is-installed.sh pandoc "install using https://pandoc.org/installing.html instruction for your runtime environment."
 
 ##@ Build - targets to build different parts the repo
@@ -28,18 +29,18 @@ build-pdf-resume: ## Converts md into HTML docs
 
 ##@ Test - Quality Assurance targets to format, lint and test this repository
 
-qa: qa-lint ## Run all qa targets for the repo
+qa: qa-lint  ## Run all QA targets on repository
 
-qa-lint:  ## lint all code type in the repo
-	@docker run --rm --env-file .github/linters/.super-linter-local.env -v /Users/doug/github/dougschveninger:/tmp/lint github/super-linter
+qa-lint:  ## run Mega-linter using .mega-liner.yml config files
+	@docker run --rm -v ${PROJ_DIR}:/tmp/lint ${MEGA_LINTER_IMAGE}
 
-lint-all:  ## run all linter against all files
-	@docker run --rm -e RUN_LOCAL=true -v /Users/doug/github/dougschveninger:/tmp/lint github/super-linter
+lint-fix:  ## run Mega-linter in fix mode
+	@docker run --rm -e APPLY_FIXES=all -v ${PROJ_DIR}:/tmp/lint ${MEGA_LINTER_IMAGE}
 
-lint-regex:  ## run linter against all files. make lint-regex REGEX={file or directory regex}
-	docker run --rm -e RUN_LOCAL=true -e FILTER_REGEX_INCLUDE=$(REGEX) -v /Users/doug/github/dougschveninger:/tmp/lint github/super-linter
+lint-regex:  ## run Mega-linter against regex. make lint-arg REGEX={file or directory}
+	@docker run --rm -e FILTER_REGEX_INCLUDE=$(REGEX) -v ${PROJ_DIR}:/tmp/lint ${MEGA_LINTER_IMAGE}
 
-lint-run:  ## run all linter against all files
-	@docker run --rm -it -e RUN_LOCAL=true -v /Users/doug/github/dougschveninger:/tmp/lint --entrypoint=/bin/bash github/super-linter 
+lint-run:  ## run Mega-linter container in interactive mode
+	@docker run --rm -ti --entrypoint=/bin/bash -v ${PROJ_DIR}:/tmp/lint ${MEGA_LINTER_IMAGE}
 
-.PHONY: build-pdf-resume help install install-docker install-pandoc lint-all lint-arg lint-run qa qa-lint
+.PHONY: build-pdf-resume help install install-docker install-pandoc lint-fix lint-regex lint-run qa qa-lint
