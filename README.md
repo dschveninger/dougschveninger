@@ -8,6 +8,8 @@ This repository contains information about Doug Schveninger and items that he is
 you can view it using GitHub Browser of the repository or you can view most of it from
 [dschvenigergithub.io GitHub Pages](https://dschveninger.github.io/index.html)
 
+[![MegaLinter](https://github.com/dschveninger/dougschveninger/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/dschveninger/dougschveninger/actions?query=workflow%3AMegaLinter+branch%3Amain)
+
 ## About Doug
 
 To understand more about my career please see my [introduction page](about/introduction.md).
