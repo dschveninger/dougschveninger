@@ -1,0 +1,67 @@
+---
+$schema: https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json
+allowCompoundWords: true
+features:
+  weighted-suggestions: true
+language: en
+languageSettings:
+  - dictionaries:
+      - bash
+    languageId": shellscript
+    locale: "*"
+    includeRegExpList:
+      - "/#.*/"
+      - "/('''|\"\"\")[^\\1]+?\\1/g"
+  - dictionaries:
+      - bash
+    languageId": shellscript
+    locale: "*"
+    includeRegExpList:
+      - "/#.*/"
+      - "/('''|\"\"\")[^\\1]+?\\1/g"
+ignorePaths:
+  - "**/.vscode/**"
+imports:
+  - "@cspell/dict-bash/cspell-ext.json"
+  - "@cspell/dict-golang/cspell-ext.json"
+version: "0.2"
+useGitignore: true
+words:
+  - BitBuckt
+  - Codacy
+  - codeql
+  - CICS
+  - CICD
+  - dougschveninger
+  - dschveninger
+  - dschvenigergithub
+  - Etherpad
+  - financials
+  - Gerrit
+  - howto
+  - Infinispan
+  - Introscope
+  - JDBC
+  - JNDI
+  - Konstraint
+  - Kube
+  - kubernetes
+  - Nacef
+  - Orbix
+  - pandoc
+  - Qube
+  - RDBMS
+  - redhwan
+  - Rego
+  - sarif
+  - Schveninger
+  - servlets
+  - substr
+  - Telco
+  - TIBCO
+  - Visio
+  - Websphere
+  - yapf
+
+flagWords:
+  - hte

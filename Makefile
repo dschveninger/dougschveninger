@@ -20,7 +20,7 @@ install-docker:
 	@./tools/is-installed.sh docker
 
 install-pandoc:  ## install instructions for pandoc to create different formats of the .md file
-	@./tools/is-installed.sh pandoc "install using https://pandoc.org/installing.html instruction for your runtime environment."
+	@./tools/install/is-installed.sh pandoc "install using https://pandoc.org/installing.html instruction for your runtime environment."
 
 ##@ Build - targets to build different parts the repo
 
@@ -40,7 +40,7 @@ lint-fix:  ## run Mega-linter in fix mode
 lint-regex:  ## run Mega-linter against regex. make lint-arg REGEX={file or directory}
 	@docker run --rm -e FILTER_REGEX_INCLUDE=$(REGEX) -v ${PROJ_DIR}:/tmp/lint ${MEGA_LINTER_IMAGE}
 
-lint-run:  ## run Mega-linter container in interactive mode
+lint-interactive:  ## run Mega-linter container in interactive mode
 	@docker run --rm -ti --entrypoint=/bin/bash -v ${PROJ_DIR}:/tmp/lint ${MEGA_LINTER_IMAGE}
 
 .PHONY: build-pdf-resume help install install-docker install-pandoc lint-fix lint-regex lint-run qa qa-lint

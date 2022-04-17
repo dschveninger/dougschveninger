@@ -6,4 +6,5 @@ if [[ $(which "$1") && $("$1" --version) ]]; then
 else
 	echo "$1 not installed"
 	echo "$2"
+	exit 1
 fi
