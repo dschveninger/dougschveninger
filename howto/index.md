@@ -6,5 +6,6 @@ notes about how to use the different items.
 
 ## How to Notes by areas
 
-1. git
+1. [Mega-Linter](mega-linter/mega-linter.md)
+2. git
    1. [git submodule](git/submodule.md)

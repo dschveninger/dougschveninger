@@ -12,12 +12,12 @@ I am using Mega-linter for the following reasons:
 1. It will review your code and turn on any of it linters according to your file types.
 2. It has a well layered set of documentation based on:
    1. Language like [go](https://github.com/megalinter/megalinter/blob/main/docs/descriptors/go.md#readme)
-      1. language linters config like [golangci-lint](https://github.com/megalinter/megalinter/blob/main/docs/descriptors/go_golangci_lint.md)
+      1. Language linters config like [golangci-lint](https://github.com/megalinter/megalinter/blob/main/docs/descriptors/go_golangci_lint.md)
          1. Specific [linter docs](https://golangci-lint.run/)
-   2. format like [markdown](https://github.com/megalinter/megalinter/blob/main/docs/descriptors/markdown.md#readme)
+   2. Format like [markdown](https://github.com/megalinter/megalinter/blob/main/docs/descriptors/markdown.md#readme)
       1. Specific linter [markdownlint](https://github.com/megalinter/megalinter/blob/main/docs/descriptors/markdown_markdownlint.md)
          1. Specific [linter docs](https://github.com/DavidAnson/markdownlint#readme)
-   3. tools like [Dockerfile](https://github.com/megalinter/megalinter/blob/main/docs/descriptors/dockerfile.md#readme)
+   3. Tools like [Dockerfile](https://github.com/megalinter/megalinter/blob/main/docs/descriptors/dockerfile.md#readme)
       1. Specific linter config like [Hadolint](https://github.com/megalinter/megalinter/blob/main/docs/descriptors/dockerfile_hadolint.md)
          1. Specific [linter docs](https://github.com/hadolint/hadolint#readme)
 3. It also have configuration documentation based on
