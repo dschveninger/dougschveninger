@@ -1,5 +1,12 @@
 # EXPERIENCE
 
+## Microsoft, St. Louis, Missouri
+
+<!-- markdownlint-disable MD024-->
+### Lead System Engineer, 8/2021 - Present
+
+coming soon...
+
 ## AT&T Services Inc., St. Louis, Missouri
 
 ### Lead System Engineer, 5/19 – 8/2021
@@ -191,3 +198,5 @@ Programmer/Analyst on an online, DB2 corporate mailing and financial management 
 - Systems design of a physical inventory correction system and several sales reporting systems.
 - System analysis of existing purchase order and receiving system on an IBM System/38.
 - System support of an integrated retailing software package on a Wang VS.
+
+[Prev](education.md) - [Introduction](introduction.md) - [Next](history.md)

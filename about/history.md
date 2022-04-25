@@ -1,7 +1,7 @@
 # Professional History
 
-I have worked in Information Technology for 30 plus years now.
-Here is my reflection on the past 30 years.
+I have worked in Information Technology profession for 35 plus years now.
+Here is my reflection on the past 35 plus years.
 
 - [Professional History](#professional-history)
   - [Software Areas](#software-areas)
@@ -42,7 +42,7 @@ Here is my reflection on the past 30 years.
 - 1995-1997 Protein Technologies International, Project Manager
 - 1991-1995 Southwestern Bell Telephone
   - 1994-1995 Client Server Architect and Developer
-  - 1994 Project Leader
+  - 1994-1994 Project Leader
   - 1992-1994 Solution Architect
   - 1991-1992 Business Consultant
 - 1989-1991 Forrest Ford Consulting,
@@ -109,3 +109,5 @@ Here is my reflection on the past 30 years.
 - 1991 - Window client, Windows Server and UNIX servers.
 - 1987 - IBM MVS Mainframe and Wang OS.
 - 1986 - IBM MVS Mainframe
+
+[Prev](history.md) - [Introduction](introduction.md) - [Next](technical-skills.md)

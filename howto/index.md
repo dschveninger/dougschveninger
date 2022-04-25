@@ -7,5 +7,8 @@ notes about how to use the different items.
 ## How to Notes by areas
 
 1. [Mega-Linter](mega-linter/mega-linter.md)
-2. git
+2. [GitHub](github/github.md) general items
+3. git
    1. [git submodule](git/submodule.md)
+
+[Prev]() - [Home](../README.md) - [Next]()
