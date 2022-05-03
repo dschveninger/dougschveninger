@@ -110,4 +110,4 @@ Here is my reflection on the past 35 plus years.
 - 1987 - IBM MVS Mainframe and Wang OS.
 - 1986 - IBM MVS Mainframe
 
-[Prev](history.md) - [Introduction](introduction.md) - [Next](technical-skills.md)
+[Prev](experience.md) - [Introduction](introduction.md) - [Next](podcasts.md)

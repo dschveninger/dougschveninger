@@ -25,4 +25,4 @@ WireShark, Infinispan, Rational Rose, Visual C++, PowerBuilder, ERwin
 
 **Agile Roles:** Lead Developer/Architect, Product Owner, Scrum Master, Agile Coach, Team Member
 
-[Prev](history.md) - [Introduction](introduction.md) - [Next](training.md)
+[Prev](podcasts.md) - [Introduction](introduction.md) - [Next](training.md)

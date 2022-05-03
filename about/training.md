@@ -24,4 +24,5 @@ book read to improve my background.
 |-------|---------|------|
 |       |         |      |
 
+<!-- markdownlint-disable -->
 [Prev](technical-skills.md) - [Introduction](introduction.md) - [Next]()

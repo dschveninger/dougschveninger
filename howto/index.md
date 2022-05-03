@@ -11,4 +11,5 @@ notes about how to use the different items.
 3. git
    1. [git submodule](git/submodule.md)
 
+<!-- markdownlint-disable -->
 [Prev]() - [Home](../README.md) - [Next]()
