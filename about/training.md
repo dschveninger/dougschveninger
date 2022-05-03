@@ -16,15 +16,15 @@ Coming Soon...
 
 ## Book Club
 
-| Title | Summary | Date |
-|-------|---------|------|
-|       |         |      |
+| Title                                                     | Date Read     |
+|-----------------------------------------------------------|---------------|
+| [Site Reliability Engineering](https://sre.google/books/) | December 2021 |
 
 ## Book
 
-| Title | Summary | Date |
-|-------|---------|------|
-|       |         |      |
+| Title | Date |
+|-------|------|
+|       |      |
 
 <!-- markdownlint-disable -->
 [Prev](technical-skills.md) - [Introduction](introduction.md) - [Next]()
