@@ -6,6 +6,8 @@ book read to improve my background.
 
 [[_TOC_]]
 
+Coming Soon...
+
 ## Training Classes
 
 | Title | Summary | Date |
