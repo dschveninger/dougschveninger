@@ -2,18 +2,15 @@
 # Configuration file for MegaLinter
 # See all available variables at https://megalinter.github.io/configuration/ and in linters documentation
 APPLY_FIXES: none # When active, APPLY_FIXES must also be defined as environment variable (in github/workflows/mega-linter.yml or other CI tool)
-DISABLE:
-  - CLOUDFORMATION
-PRE_COMMANDS:
-  - command: echo "This is MegaLinter PRE_COMMAND on own MegaLinter ! :)"
-    cwd: "root"
-POST_COMMANDS:
-  - command: echo "This is MegaLinter POST_COMMAND on own MegaLinter ! :)"
-    cwd: "workspace"
 
+EXCLUDED_DIRECTORIES:
+  - common-tools
+  - report
+  - .git
+
+# LOG_LEVEL: DEBUG
 ERROR_ON_MISSING_EXEC_BIT: true
 SPELL_CSPELL_CONFIG_FILE: .cspell.yml
-DOCKERFILE_HADOLINT_ARGUMENTS: "--ignore DL3003 --ignore DL3007 --ignore DL3013 --ignore DL3016 --ignore DL3018 --ignore DL3028 --ignore DL4001 --ignore DL4006 --ignore SC2015 --ignore SC2016 --ignore SC2039 --ignore SC2086 --ignore SC1091"
 
 # Reporter
 EMAIL_REPORTER: false

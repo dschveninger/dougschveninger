@@ -21,6 +21,8 @@ languageSettings:
       - "/('''|\"\"\")[^\\1]+?\\1/g"
 ignorePaths:
   - "**/.vscode/**"
+  - "**/.git/**"
+
 imports:
   - "@cspell/dict-bash/cspell-ext.json"
   - "@cspell/dict-golang/cspell-ext.json"

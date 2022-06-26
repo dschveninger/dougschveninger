@@ -29,18 +29,9 @@ build-pdf-resume: ## Converts md into HTML docs
 
 ##@ Test - Quality Assurance targets to format, lint and test this repository
 
-qa: qa-lint  ## Run all QA targets on repository
+qa: lint  ## Run all QA targets on repository
 
-qa-lint:  ## run Mega-linter using .mega-liner.yml config files
-	@docker run --rm -v ${PROJ_DIR}:/tmp/lint ${MEGA_LINTER_IMAGE}
+.PHONY: build-pdf-resume help install install-docker install-pandoc qa
 
-lint-fix:  ## run Mega-linter in fix mode
-	@docker run --rm -e APPLY_FIXES=all -v ${PROJ_DIR}:/tmp/lint ${MEGA_LINTER_IMAGE}
-
-lint-regex:  ## run Mega-linter against regex. make lint-arg REGEX={file or directory}
-	@docker run --rm -e FILTER_REGEX_INCLUDE=$(REGEX) -v ${PROJ_DIR}:/tmp/lint ${MEGA_LINTER_IMAGE}
-
-lint-interactive:  ## run Mega-linter container in interactive mode
-	@docker run --rm -ti --entrypoint=/bin/bash -v ${PROJ_DIR}:/tmp/lint ${MEGA_LINTER_IMAGE}
-
-.PHONY: build-pdf-resume help install install-docker install-pandoc lint-fix lint-regex lint-run qa qa-lint
+COMMON_DIR ?= common-tools
+   -include $(COMMON_DIR)/mk/megalinter.mk
